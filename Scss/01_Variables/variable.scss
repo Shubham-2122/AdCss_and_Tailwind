@@ -1,0 +1,9 @@
+$font-stack:sans-serif;
+$primary-color:#cc2c2c;
+$bg-color:#b5d428;
+
+body{
+    font: $font-stack;
+    color: $primary-color;
+    background-color: $bg-color;
+}

@@ -1,0 +1,35 @@
+@mixin bd-radius($value){
+    -webkit-border-radius:$value;
+    -moz-border-radius:$value;
+    border-radius: $value;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font:18px/24px arial;
+}
+div{
+    margin: 0 0 15px 15px;
+}
+#first{
+    background-color: lightcoral;
+    width: 150px;
+    height: 150px;
+    @include bd-radius(50px)
+}
+#secound{
+    background-color: darkkhaki;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    @include bd-radius(20px)
+    
+}
+#third{
+    background-color: lawngreen;
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+    @include bd-radius(10px)
+}

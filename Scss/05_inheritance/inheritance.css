@@ -1,0 +1,13 @@
+.meassge2, .message {
+  border: 2px solid #dd4545;
+  padding: 20px;
+  color: #333;
+}
+
+.message {
+  background-color: lightcoral;
+}
+
+.meassge2 {
+  background-color: lightgreen;
+}/*# sourceMappingURL=inheritance.css.map */
