@@ -1,0 +1,16 @@
+.p-style(@size) when(@size <= 20)
+{
+    font-size: @size;
+    color: red;
+}
+
+.p-style(@size) when(@size >= 20)
+{
+    font-size: @size;
+    color: blue;
+}
+
+p{
+    // codtional use to 20px only
+    .p-style(20px)
+}

@@ -1,0 +1,24 @@
+.pannel {
+  border: 4px solid lightcoral;
+  background-color: lightgreen;
+  margin: 10px;
+}
+.little-panel {
+  border: 4px solid lightcoral;
+  background-color: lightgreen;
+  margin: 10px;
+  font-size: 12px;
+  padding: 5px;
+}
+.big-pannel {
+  border: 4px solid lightcoral;
+  background-color: lightgreen;
+  margin: 10px;
+  font-size: 32px;
+  padding: 20px;
+}
+.fancier-border {
+  border: 10px dashed blue;
+  background-color: yellow;
+  border-radius: 10px;
+}

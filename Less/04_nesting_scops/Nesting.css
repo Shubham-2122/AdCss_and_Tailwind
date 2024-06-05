@@ -1,0 +1,12 @@
+main {
+  background-color: yellow;
+}
+main p {
+  color: red;
+}
+main article {
+  background-color: blue;
+}
+main article p {
+  color: yellow;
+}
