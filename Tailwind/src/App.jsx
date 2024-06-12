@@ -26,6 +26,11 @@ import Border_opactiy from "./Border/Border-opactiy"
 import Border_style from "./Border/Border_style"
 import Divide from "./Border/Divide"
 import Ring from "./Border/Ring"
+import Boxshadow from "./Effects/Boxshadow"
+import Mixblendmode from "./Effects/Mixblendmode"
+import Blure1 from "./Fillter/Blure1"
+import Brightenss from "./Fillter/Brightenss"
+import Contrast from "./Fillter/Contrast"
 
 
 function App() {
@@ -58,7 +63,12 @@ function App() {
       {/* <Border_opactiy /> */}
       {/* <Border_style /> */}
       {/* <Divide /> */}
-      <Ring />
+      {/* <Ring /> */}
+      {/* <Boxshadow /> */}
+      {/* <Mixblendmode /> */}
+      {/* <Blure1 /> */}
+      {/* <Brightenss /> */}
+      <Contrast />
 
     </>
   )
