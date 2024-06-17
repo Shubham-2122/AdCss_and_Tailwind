@@ -16,3 +16,18 @@ nav{
         text-decoration: none;
     }
 }
+
+section{
+    .main{
+        p{
+            background-color: aqua;
+            padding: 20px;
+        }
+    }
+    .main2{
+        p{
+            background-color: black;
+            color: white;
+        }
+    }
+}

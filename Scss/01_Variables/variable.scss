@@ -1,9 +1,21 @@
 $font-stack:sans-serif;
-$primary-color:#cc2c2c;
-$bg-color:#b5d428;
+$primary-color:red;
+$bg-color:blue;
+$div-color:lightblue;
+
 
 body{
     font: $font-stack;
-    color: $primary-color;
+}
+
+h1{
     background-color: $bg-color;
+    color: $primary-color;
+}
+
+p{
+    background-color: $div-color;
+}
+div h2{
+    background-color: $div-color;
 }

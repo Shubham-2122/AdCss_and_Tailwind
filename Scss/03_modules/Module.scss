@@ -1,4 +1,5 @@
 @use 'base';
+@use '_name';
 
 .inverse{
     background-color: base.$primary-color;

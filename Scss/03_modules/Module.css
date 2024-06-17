@@ -3,6 +3,12 @@ body {
   color: #333;
 }
 
+p {
+  background-color: red;
+  color: blue;
+  font-size: 50px;
+}
+
 .inverse {
   background-color: #333;
   color: white;
