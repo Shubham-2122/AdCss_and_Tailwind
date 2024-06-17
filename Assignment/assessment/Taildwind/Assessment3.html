@@ -4,8 +4,333 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+   <header>
+    <div class="relative w-full bg-white">
+        <div class="mx-auto flex max-w-7xl items-center justify-between px-4  text-gray-300 py-2 sm:px-6 lg:px-8">
+          <div class="inline-flex items-center space-x-2">
+            <span>
+                <i class="fa-solid fa-blog text-2xl"></i>
+                <path
+                  d="M23.2732 0.2528C20.8078 1.18964 2.12023 12.2346 1.08477 13.3686C0 14.552 0 14.7493 0 27.7665C0 39.6496 0.0986153 41.1289 0.83823 42.0164C2.12023 43.5449 23.2239 55.4774 24.6538 55.5267C25.9358 55.576 46.1027 44.3832 48.2229 42.4602C49.3077 41.474 49.3077 41.3261 49.3077 27.8158C49.3077 14.3055 49.3077 14.1576 48.2229 13.1714C46.6451 11.7415 27.1192 0.450027 25.64 0.104874C24.9497 -0.0923538 23.9142 0.00625992 23.2732 0.2528ZM20.2161 21.8989C20.2161 22.4906 18.9835 23.8219 17.0111 25.3997C15.2361 26.7803 13.8061 27.9637 13.8061 28.0623C13.8061 28.1116 15.2361 29.0978 16.9618 30.2319C18.6876 31.3659 20.2655 32.6479 20.4134 33.0917C20.8078 34.0286 19.871 35.2119 18.8355 35.2119C17.8001 35.2119 9.0233 29.3936 8.67815 28.5061C8.333 27.6186 9.36846 26.5338 14.3485 22.885C17.6521 20.4196 18.4904 20.0252 19.2793 20.4196C19.7724 20.7155 20.2161 21.3565 20.2161 21.8989ZM25.6893 27.6679C23.4211 34.9161 23.0267 35.7543 22.1391 34.8668C21.7447 34.4723 22.1391 32.6479 23.6677 27.9637C26.2317 20.321 26.5275 19.6307 27.2671 20.3703C27.6123 20.7155 27.1685 22.7864 25.6893 27.6679ZM36.0932 23.2302C40.6788 26.2379 41.3198 27.0269 40.3337 28.1609C39.1503 29.5909 31.6555 35.2119 30.9159 35.2119C29.9298 35.2119 28.9436 33.8806 29.2394 33.0424C29.3874 32.6479 30.9652 31.218 32.7403 29.8867L35.9946 27.4706L32.5431 25.1532C30.6201 23.9205 29.0915 22.7371 29.0915 22.5892C29.0915 21.7509 30.2256 20.4196 30.9159 20.4196C31.3597 20.4196 33.6771 21.7016 36.0932 23.2302Z"
+                  fill="black"
+                ></path>
+              </svg>
+            </span>
+            <span class="font-bold">Cleopatra</span>
+          </div>
+          <div class="hidden grow  items-start lg:flex">
+            <ul class="ml-12 inline-flex space-x-2">
+              <li>
+                <a
+                  href="#"
+                  class="text-sm font-semibold text-gray-800 hover:text-gray-900"
+                >
+                <i class="fa-solid fa-envelope"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-sm font-semibold text-gray-800 hover:text-gray-900"
+                >
+                <i class="fa-solid fa-message"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-sm font-semibold text-gray-800 hover:text-gray-900"
+                >
+                <i class="fa-solid fa-check"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-sm font-semibold text-gray-800 hover:text-gray-900"
+                >
+                <i class="fa-solid fa-calendar-days"></i>
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+          <div class="hidden lg:block">
+            <div class="icon text-2xl text-gray-300">
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-brands fa-pied-piper"></i>
+                 <i class="fa-solid fa-image"></i>
+                 <span>MoeSaid</span>
+                
+            </div>
+          </div>
+          <div class="lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="h-6 w-6 cursor-pointer"
+            >
+              <line x1="4" y1="12" x2="20" y2="12"></line>
+              <line x1="4" y1="6" x2="20" y2="6"></line>
+              <line x1="4" y1="18" x2="20" y2="18"></line>
+            </svg>
+          </div>
+        </div>
+      </div>
+   </header>
+
+   <section class="mx-auto  flex max-w-7xl items-center justify-between px-4  py-2 sm:px-6 lg:px-8">
+        <div class="col w-3/12 bg-red-200">
+            <aside class="flex h-full w-64 flex-col overflow-y-auto border-r bg-white px-5 py-8">
+               
+                <div class="mt-6 flex flex-1 flex-col justify-between">
+                  <nav class="-mx-3 space-y-6 ">
+                    <div class="space-y-3 ">
+                      <label class="px-3 text-xs font-semibold uppercase text-gray-900">
+                        Home
+                      </label>
+                      <a
+                        class="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
+                        href="#"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="h-5 w-5"
+                          aria-hidden="true"
+                        >
+                          <line x1="12" y1="20" x2="12" y2="10"></line>
+                          <line x1="18" y1="20" x2="18" y2="4"></line>
+                          <line x1="6" y1="20" x2="6" y2="16"></line>
+                        </svg>
+                        <span class="mx-2 text-sm font-medium">Analytics Dashboard</span>
+                      </a>
+                      <a
+                        class="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
+                        href="#"
+                      >
+                      <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="mx-2 text-sm font-medium">Exommerce Dashboard</span>
+                      </a>
+                    </div>
+                    <div class="space-y-3 ">
+                      <label class="px-3 text-xs font-semibold uppercase text-gray-900">
+                        APPS
+                      </label>
+                      <a
+                        class="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
+                        href="#"
+                      >
+                      <i class="fa-solid fa-envelope"></i>
+                        <span class="mx-2 text-sm font-medium">Email</span>
+                      </a>
+                      <a
+                        class="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
+                        href="#"
+                      >
+                      <i class="fa-solid fa-comments"></i>
+                        <span class="mx-2 text-sm font-medium">chat</span>
+                      </a>
+                      <a
+                        class="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
+                        href="#"
+                      >
+                      <i class="fa-solid fa-circle-check"></i>
+                        <span class="mx-2 text-sm font-medium">Todo</span>
+                      </a>
+                      <a
+                      class="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
+                      href="#"
+                    >
+                    <i class="fa-solid fa-calendar-days"></i>
+                      <span class="mx-2 text-sm font-medium">Calender</span>
+                    </a>
+                    <a
+                    class="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
+                    href="#"
+                  >
+                  <i class="fa-solid fa-file-invoice"></i>
+                    <span class="mx-2 text-sm font-medium">Invoice</span>
+                  </a>
+                  <a
+                    class="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
+                    href="#"
+                  >
+                  <i class="fa-solid fa-file"></i>
+                    <span class="mx-2 text-sm font-medium">File manager</span>
+                  </a>
+                  
+                    </div>
+                    <div class="space-y-3 ">
+                      <label class="px-3 text-xs font-semibold uppercase text-gray-900">
+                        UI ELEMENTS
+                      </label>
+                      <a
+                        class="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
+                        href="#"
+                      >
+                      <i class="fa-solid fa-text-width"></i>
+                        <span class="mx-2 text-sm font-medium">Typography</span>
+                      </a>
+                      <a
+                        class="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
+                        href="#"
+                      >
+                      <i class="fa-solid fa-bell"></i>
+                        <span class="mx-2 text-sm font-medium">Alrets</span>
+                      </a>
+                      <a
+                      class="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
+                      href="#"
+                    >
+                    <i class="fa-solid fa-tablet-button"></i>
+                      <span class="mx-2 text-sm font-medium">buttons</span>
+                    </a>
+                    <a
+                    class="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
+                    href="#"
+                  >
+                  <i class="fa-brands fa-swift"></i>
+                    <span class="mx-2 text-sm font-medium">Content</span>
+                  </a>
+
+                  <a
+                    class="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
+                    href="#"
+                  >
+                  <i class="fa-brands fa-figma"></i>
+                    <span class="mx-2 text-sm font-medium">Colors</span>
+                  </a>
+                  <a
+                    class="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
+                    href="#"
+                  >
+                  <i class="fa-brands fa-font-awesome"></i>
+                    <span class="mx-2 text-sm font-medium">icons</span>
+                  </a>
+                  <a
+                  class="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
+                  href="#"
+                >
+                <i class="fa-brands fa-cc-mastercard"></i>
+                  <span class="mx-2 text-sm font-medium">cards</span>
+                </a>
+                <a
+                class="flex transform items-center rounded-lg px-3 py-2 text-gray-600 transition-colors duration-300 hover:bg-gray-100 hover:text-gray-700"
+                href="#"
+              >
+              <i class="fa-brands fa-tiktok"></i>
+                <span class="mx-2 text-sm font-medium">widgets</span>
+              </a>
+
+                  
+                    </div>
+                  </nav>
+                </div>
+              </aside>
+              
+        </div>
+        <div class="col w-full">
+          <div class="div flex p-4 gap-4">
+              <div class="col w-3/12">
+                <div class="main flex justify-between my-4">
+                  <div class="icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                  <span class="bg-blue-300 text-white px-4 rounded-lg">12%</span>
+                </div>
+                <h2>8807</h2>
+                <p class="text-gray-500">items Sales</p>
+              </div>
+              <div class="col w-3/12">
+                <div class="main flex justify-between my-4">
+                  <div class="icon"><i class="fa-solid fa-house"></i></div>
+                  <span class="bg-pink-300 text-white  px-4 rounded-lg">6%</span>
+                </div>
+                <h2>7043</h2>
+                <p class="text-gray-500">New Orders</p>
+              </div>
+              <div class="col w-3/12">
+                <div class="main flex justify-between my-4">
+                  <div class="icon"><i class="fa-brands fa-product-hunt"></i></div>
+                  <span class="bg-blue-300 text-white  px-4 rounded-lg">72%</span>
+                </div>
+                <h2>8482</h2>
+                <p class="text-gray-500">Total Products</p>
+              </div>
+              <div class="col w-3/12">
+                <div class="main flex justify-between my-4">
+                  <div class="icon"><i class="fa-solid fa-person"></i></div>
+                  <span class="bg-blue-300 text-white  px-4 rounded-lg">150%</span>
+                </div>
+                <h2>4045</h2>
+                <p class="text-gray-500">New Visitor</p>
+              </div>
+          </div>
+          <div class="flex card p-4 gap-4">
+            <div class="col w-6/12">
+              <div class="div flex p-4 bg-blue-400">
+                <div class="img mx-4">
+                  <img src="https://th.bing.com/th/id/OIP.mP1RB8xuQaHAvUkonYY6HwHaHK?w=199&h=192&c=7&r=0&o=5&pid=1.7" alt="" width="100%">
+                </div>
+                <div class="card-content">
+                  <h2>Good Job,Mohamed!</h2>
+                  <p>You'ur Finished All Of your Tasks for This week.</p>
+                  <ul>
+                    <li class="flex ">
+                      <div class="icon mr-2"><i class="fa-solid fa-plus"></i></div>
+                      <p>Finish Dashboard Design</p>
+                    </li>
+                    <li class="flex ">
+                      <div class="icon mr-2"><i class="fa-solid fa-plus"></i></div>
+                      <p>Fix Issue #74</p>
+                    </li>
+                    <li class="flex ">
+                      <div class="icon mr-2"><i class="fa-solid fa-plus"></i></div>
+                      <p>Publish Version 1.0.6</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col w-6/12">
+              <h4 class="bg-gray-700 p-4 text-white">Hi! Wait A minute ..... Follow Me On Twitter <span class="text-gray-400">@Moesaid</span></h4>
+              <div class="main flex gap-2 w-full">
+                <img class="block w-6/12" width="100%" src="https://th.bing.com/th/id/OIP.VUCV0JkSivGFYCBSk2LUKQHaEN?w=285&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+                <img class="block w-6/12" width="100%" src="https://th.bing.com/th/id/OIP.VUCV0JkSivGFYCBSk2LUKQHaEN?w=285&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="p-4">
+            <h1>Sales overview</h1>
+            <div class="div flex w-full">
+              <div class="col w-4/12">
+                <h1 class="text-5xl my-2">5337</h1>
+                <p>Sales This Month</p>
+              </div>
+              <div class="col w-8/12">
+                <img src="https://th.bing.com/th/id/OIP.rUMOOMUhdHaz30Wr5IGKOAHaFD?w=270&h=184&c=7&r=0&o=5&pid=1.7" width="100%" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+   </section>
+      
 </body>
 </html>
