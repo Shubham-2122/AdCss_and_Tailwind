@@ -1,0 +1,38 @@
+%flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
+header{
+    ul{
+        @extend %flexbox;
+        background-color: rgba(234, 118, 118, 0.79);
+        padding: 20px;
+        list-style: none;
+        li{
+            margin: 0 20px;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+section{
+    .container{
+        .row{
+            @extend %flexbox;
+            flex-wrap: wrap;
+            gap: 5px;
+            .col{
+                width: 33%;
+                height: 300px;
+                box-shadow: 0 0 10px 10px rgb(87, 80, 80);
+            }
+        }
+    }
+}

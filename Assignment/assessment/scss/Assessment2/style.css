@@ -1,0 +1,18 @@
+.main {
+  border: 5px solid;
+  border-color: lightblue;
+  padding: 20px;
+}
+.main .main1 {
+  border: 5px solid;
+  border-color: red;
+  padding: 20px;
+}
+.main .main1 h1 {
+  border: 5px solid;
+  border-color: green;
+}
+.main .main1 ul {
+  border: 5px solid;
+  border-color: blue;
+}/*# sourceMappingURL=style.css.map */

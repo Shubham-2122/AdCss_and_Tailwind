@@ -1,0 +1,46 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin box($width, $height, $bg-color){
+    width: $width;
+    height: $height;
+    background-color: $bg-color;
+}
+
+$primey-color:rgb(19, 191, 105);
+$colro:white;
+$bg-dark:rgb(21, 98, 89);
+$bg-dark1:rgb(21, 136, 161);
+
+*{
+    background-color: $bg-dark;
+}
+
+.main{
+    text-align: center;
+    color: $colro;
+    h1{
+        color: $primey-color;
+    }
+    button{
+        color: white;
+        background-color: $bg-dark1;
+        padding: 10px;
+    }
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    .row{
+        @include flex-center;
+        gap: 10px;
+    .col{
+        @include box(30%,200px,$primey-color);
+        align-items: center;
+        padding: 60px 20px;
+        clip-path: polygon(0% 0%,100% 20%,100% 100%,0% 100%);
+    }
+    }
+}

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+
+.h {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.main-content {
+  background-color: green;
+  height: 200px;
+  width: 300px;
+}
+
+.slider {
+  background-color: rgb(14, 150, 208);
+  height: 200px;
+  width: 200px;
+}
+
+.twin {
+  background-color: orange;
+  height: 200px;
+  width: 250px;
+}
+
+.footer {
+  background-color: blue;
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */

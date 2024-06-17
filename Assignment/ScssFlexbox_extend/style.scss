@@ -1,0 +1,33 @@
+%flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+$text-color:black;
+$bg-color:aqua;
+
+.row{
+    @extend %flexbox;
+
+}
+
+.btn{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.item{
+    color: $text-color;
+    background-color: $bg-color;
+    padding: 15px;
+}
+.container{
+    @extend %flexbox
+}
+.btn1{
+    width: 25%;
+}

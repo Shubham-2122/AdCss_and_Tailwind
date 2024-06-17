@@ -1,0 +1,19 @@
+@mixin bg-border($value){
+    border: 5px solid;
+    border-color:$value ;
+}
+
+.main{
+    @include bg-border(lightblue);
+    padding: 20px;
+    .main1{
+        @include bg-border(red);
+        padding: 20px;
+        h1{
+            @include bg-border(green);
+        }
+        ul{
+            @include bg-border(blue);
+        }
+    }
+}
