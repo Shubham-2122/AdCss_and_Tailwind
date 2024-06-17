@@ -1,0 +1,38 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  background-color: #156259;
+}
+.main {
+  text-align: center;
+  color: white;
+}
+.main h1 {
+  color: #13bf69;
+}
+.main button {
+  color: white;
+  background-color: #1588a1;
+  padding: 10px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.container .row .col {
+  width: 30%;
+  height: 200px;
+  background-color: #13bf69;
+  align-items: center;
+  padding: 60px 20px;
+  clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0% 100%);
+}

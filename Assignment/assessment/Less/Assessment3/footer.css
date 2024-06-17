@@ -1,0 +1,31 @@
+.ft {
+  background-color: #464343;
+  color: white;
+  padding: 20px;
+}
+.ft .row {
+  display: flex;
+  gap: 10px;
+}
+.ft .row .col {
+  width: 30%;
+}
+.ft .row .col .post li {
+  display: flex;
+}
+.ft .row .col .post li .date {
+  font-size: 30px;
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  margin: 0 10px;
+}
+.ft .row .col .icon li {
+  display: flex;
+  margin: 10px 0;
+}
+.ft .row .col .icon li p {
+  margin: 0 5px;
+}

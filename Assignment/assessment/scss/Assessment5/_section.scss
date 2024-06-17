@@ -1,0 +1,45 @@
+.sec1{
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .col{
+            width: 50%;
+            padding: 20px;
+            .content{
+                h2{
+                    font-size: 30px;
+                }
+                button{
+                    background-color: orange;
+                    color: white;
+                    padding: 5px 20px;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+.sec2{
+    padding: 20px;
+    h2{
+        font-size: 40px;
+        
+    }
+    .row{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        .col{
+            width: 30%;
+            .contetn{
+                button{
+                    background-color: orange;
+                    color: white;
+                    padding: 5px 20px;
+                    border: none;
+                }
+            }
+        }
+    }
+}

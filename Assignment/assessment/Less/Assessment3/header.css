@@ -1,0 +1,18 @@
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h2 {
+  font-size: 30px;
+}
+header ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+header ul li a {
+  color: white;
+  text-decoration: none;
+}

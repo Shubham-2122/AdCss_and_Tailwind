@@ -1,0 +1,38 @@
+.sec1 .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec1 .row .col {
+  width: 50%;
+  padding: 20px;
+}
+.sec1 .row .col .content h2 {
+  font-size: 30px;
+}
+.sec1 .row .col .content button {
+  background-color: orange;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+}
+.sec2 {
+  padding: 20px;
+}
+.sec2 h2 {
+  font-size: 40px;
+}
+.sec2 .row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.sec2 .row .col {
+  width: 30%;
+}
+.sec2 .row .col .contetn button {
+  background-color: orange;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+}
