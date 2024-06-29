@@ -1,4 +1,23 @@
+@primary-color: #FF69B4; 
+@secondary-color: #008080 ;
+@body-color:gray;
+
+
 button{
     font-size: 40px;
     background-color: desaturate(red, 0%);
+}
+
+
+//Page Styles
+div{
+  button{
+    background: @primary-color;
+    color: @secondary-color;
+    border-radius: 10px;
+    transition: 1s;
+    &:hover{
+    background: darken(@body-color, 10%);
+   }
+  }
 }

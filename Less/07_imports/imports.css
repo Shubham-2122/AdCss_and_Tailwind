@@ -1,3 +1,13 @@
 button {
   background-color: green;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+div {
+  background-color: green;
+  color: #d82e2e;
+  font-size: 40px;
+  padding: 20px;
+  font-weight: 900;
 }

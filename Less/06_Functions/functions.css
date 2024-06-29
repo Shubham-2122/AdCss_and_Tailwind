@@ -2,3 +2,12 @@ button {
   font-size: 40px;
   background-color: #ff0000;
 }
+div button {
+  background: #FF69B4;
+  color: #008080;
+  border-radius: 10px;
+  transition: 1s;
+}
+div button:hover {
+  background: #676767;
+}

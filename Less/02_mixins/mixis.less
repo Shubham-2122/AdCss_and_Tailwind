@@ -4,6 +4,22 @@
     margin: 10px;
 }
 
+.fun-siz(@color,@bg-colror,@font-size){
+    background-color: @color;
+    border: @font-size solid @bg-colror;
+    font-size: @font-size;
+
+}
+
+.main{
+    .fun-siz(@color:blue,@bg-colror:green,@font-size: 20px);
+    color: white;
+    border-radius: 10px;
+    padding: 20px
+    
+}
+
+
 .little-panel{
     .pannel;
     font-size: 12px;

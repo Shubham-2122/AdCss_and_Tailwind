@@ -1,5 +1,9 @@
 @base-size: 20px;
 @base-color:red;
+@var-fs :20;
+@var-bs : 40;
+@back :red;
+@var-margin :80px;
 
 p{
     font-size: @base-size;
@@ -13,3 +17,32 @@ button{
     // lighinest
     background-color: @base-color + 200;
 }
+
+
+
+
+
+
+.main{
+    padding: @var-bs;
+    background-color: rebeccapurple;
+    margin: @var-margin;
+}
+
+// +use
+h1{
+    font-size: @var-bs + 20px;
+    color: aqua;
+}
+
+.para{
+    font-size: @var-margin - 10px;
+    font-weight: 900;
+    padding: @var-fs * 5px;
+    background: linear-gradient(blue,green);
+    color: lightcoral;
+    margin: @var-margin / 5px;
+
+}
+
+
