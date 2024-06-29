@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  margin: 0 0 15px 15px;
+}
+
+#first {
+  background-color: lightcoral;
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+}
+
+#secound {
+  background-color: darkkhaki;
+  height: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 40px;
+}
+
+#third {
+  background-color: lawngreen;
+  width: 600px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+#fourth {
+  height: 200px;
+  width: 400px;
+  padding: 30px;
+  border-radius: 20px;
+  background: red;
+}/*# sourceMappingURL=mixns.css.map */

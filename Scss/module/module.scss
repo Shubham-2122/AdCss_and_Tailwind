@@ -1,0 +1,22 @@
+@use '_border';
+@use '_main';
+
+.div{
+    background-color: border.$backgroud;
+    height: 200px;
+    width: 200px;
+}
+
+.main{
+    height: border.$height;
+    width: border.$width;
+    border: border.$border;
+    background-color: border.$main-color;
+    
+}
+p{
+    font-size: main.$font-family;
+    font-size: 60px;
+    font-weight: main.$font-wight;
+    border: border.$border;
+}

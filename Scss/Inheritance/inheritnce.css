@@ -1,0 +1,18 @@
+.img, .main {
+  height: 200px;
+  width: 200px;
+  border: 20px solid green;
+  color: aqua;
+  font-size: 30px;
+}
+
+.main {
+  background: linear-gradient(red, blue, green);
+}
+
+.img {
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+  border-radius: 50%;
+}/*# sourceMappingURL=inheritnce.css.map */
