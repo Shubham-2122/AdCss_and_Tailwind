@@ -12,12 +12,14 @@ button{
 //Page Styles
 div{
   button{
-    background: @primary-color;
+    // background: @primary-color;
     color: @secondary-color;
     border-radius: 10px;
-    transition: 1s;
+    // transition: 1s;
+    background: hsl(90, 80%, 50%);
     &:hover{
-    background: darken(@body-color, 10%);
+    // background: darken(@body-color, 10%);
+    background: lighten(hsl(90, 80%, 50%), 20%);
    }
   }
 }

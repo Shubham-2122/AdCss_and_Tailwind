@@ -3,11 +3,10 @@ button {
   background-color: #ff0000;
 }
 div button {
-  background: #FF69B4;
   color: #008080;
   border-radius: 10px;
-  transition: 1s;
+  background: hsl(90, 80%, 50%);
 }
 div button:hover {
-  background: #676767;
+  background: hsl(90, 80%, 70%);
 }
